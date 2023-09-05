@@ -16,4 +16,4 @@ const galleryItemsCardList = galleryItems
     .join('');
 
 galleryListEl.insertAdjacentHTML('beforeend', galleryItemsCardList);
-new SimpleLightbox('.gallery a', {captionsData: 'alt', captionsDelay: 250});
+new SimpleLightbox('.gallery a', { captionsData: 'alt', captionsDelay: 250 });
